@@ -1,0 +1,59 @@
+img{
+    width: 300px;
+}
+
+.form{
+    position: fixed;
+    top: 50%;
+    left: calc(50% - 200px);
+    border: 1px black solid;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: red;
+    width: 400px;
+}
+
+header{
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: green;
+    padding: 40px;
+    font-size: 30px;
+    border: 1px black solid;
+}
+
+footer{
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+    width: 100%; 
+    background-color: green;
+    padding: 20px;
+    border: 1px black solid;
+}
+
+nav{
+    position: static;
+    top: 110px;
+    right: 20px;
+    border: 1px black solid;
+}
+
+main{
+    position: static;
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+article{
+    text-align: justify;
+    border: 1px black solid;
+    padding: 20px;
+}
